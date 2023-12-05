@@ -1,0 +1,10 @@
+
+.container-with-background-1 {
+  background-image: url('img/private-jet.avif'); /* Replace 'your-image.jpg' with the path to your image */
+  background-size: cover;
+  /* background-position: center; */
+   /* padding: 20px; Add some padding to the container if needed */
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}

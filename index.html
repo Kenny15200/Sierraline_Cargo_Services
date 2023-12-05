@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sierraline Cargo Service</title>
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!-- Add Bootstrap JS and jQuery links here -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  
+</head>
+<body>
+  
+  <div class="container-fluid">
+    <!-- Header -->
+    
+    <header>
+      <nav class="navbar navbar-expand-sm navbar- bg-danger">
+        <div class="container-fluid">
+          
+          <a class="navbar-brand" href="/index.html"><img src="asset/img/logo-img.png" alt="" width="20%"><p style="color: white;"> </h4></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)"  style="color: white;">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                    About
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                  <li><a class="dropdown-item" href="#history" style="color: red;">Our History</a></li>
+                  <li><a class="dropdown-item" href="asset/location.html" style="color: red;">Meet the Team</a></li>
+                  <li><a class="dropdown-item" href="#partners" style="color: red;">Our Partners</a></li>
+                  <li><a class="dropdown-item" href="#success" style="color: red;">Success Stories</a></li>
+                  <li><a class="dropdown-item" href="#business-gallery" style="color: red;">Business Gallery</a></li>
+                  <li><a class="dropdown-item" href="#" style="color: red;"></a></li>
+
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;"> Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                    <li><a class="dropdown-item" href="asset/private.html" target="_blank" style="color: red;">Private Jet Charter</a></li>
+                    <li><a class="dropdown-item" href="asset/cargo.html" target="_blank" style="color: red;">Cargo and Logistics</a></li>
+                    <li><a class="dropdown-item" href="asset/gold.html" target="_blank" style="color: red;">Gold and Precious Stones</a></li>
+                    <li><a class="dropdown-item" href="asset/custom.html " target="_blank" style="color: red;">Custom Brokerage</a></li>
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"  style="color: white;">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)"  style="color: white;">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="asset\location.html"  style="color: white;" target="_blank">Locations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tracking"  style="color: white;">Tracking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#get-quote"  style="color: white;">Get Quote</a>
+              </li>
+            </ul>
+            
+
+            
+            
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-light" type="button" id="search-button">Search</button>
+            </form>
+            
+
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="asset/img/hero-img.avif" alt="hero" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h1 class="ml1">
+          <span class="text-wrapper">
+            <span class="line line1"></span>
+            <span class="letters">SIERRALINE CARGO SERVICES</span>
+            <span class="line line2"></span>
+          </span>
+        </h1>
+        <p>Connecting The World With Your Cargo.</p>
+
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="asset/img/private-jet.avif" alt="jet" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h1 class="ml1">
+          <span class="text-wrapper">
+            <span class="line line1"></span>
+            <span class="letters">SIERRALINE CARGO SERVICES</span>
+            <span class="line line2"></span>
+          </span>
+        </h1>
+        <p>Connecting The World With Your Cargo.</p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="asset/img/Diamond.jpg" alt="fork-lift" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h1 class="ml1">
+          <span class="text-wrapper">
+            <span class="line line1"></span>
+            <span class="letters">SIERRALINE CARGO SERVICES</span>
+            <span class="line line2"></span>
+          </span>
+        </h1>
+        <p>Connecting The World With Your Cargo.</p>
+      </div>  
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="#" class="google"><i class="fa fa-google"></i></a> 
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+  <a href="#" class="youtube"><i class="fa fa-whatsapp"></i></a>
+</div>
+
+<div class="container ">
+  <h1 class="ml2" style="text-align: center; padding: 5%; color: red;"  id="history">Our History</h1><p style="color: red;">  Sierraline Cargo Service is a distinguished name in the realm of logistics and cargo services. With a rich history and an unwavering commitment to excellence, we have earned the trust of clients around the world. Our mission is simple,to deliver reliable and efficient shipping solutions tailored to your unique needs. </p>
+<p  style="color: red;">Our journey began years ago, with a vision to revolutionize the world of logistics and cargo services. From our humble beginnings, we have grown steadily, expanding our reach and enhancing our capabilities. Throughout the years, we have faced challenges, adapted to changes in the industry, and emerged as a frontrunner in the field.</p>
+
+
+</div>
+
+<div class="container-fluid mt-3">
+  <h1 class="ml2" style="text-align: center; padding: 5%; color: red;" id="services">Our Services</h1>
+  <div class="row">
+    <div class="col p-3 bg-danger text-white"><img src="asset/img/private-jet.avif" alt="" width="90%"><h5 style="text-align: center;">Private Jet Charter</h5><div class="d-flex justify-content-center">
+      <button class="btn btn-light" type="button" id="search-button"><a href="asset/private.html" style="text-decoration: none; color: red;" target="_blank">Learn More</a></button></div></div>
+
+    <div class="col p-3 bg-danger text-white"><img src="asset/img/gold.jpg" alt="" width="90%"><p></p><h5 style="text-align: center;">Gold and Precious Stones</h5>
+      <div class="d-flex justify-content-center">
+      <button class="btn btn-light" type="button" id="search-button"><a href="asset/gold.html" style="text-decoration: none; color: red;" target="_blank">Learn More</a></button></div>
+  </div>
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <div class="col p-3 bg-danger text-white">
+        <img src="asset/img/serious-attractive-young-businessman-wearing-checkered-shirt-reading-document-his-hands_273609-9110.jpg" alt="" width="90%">
+        <h5 style="text-align: center;">Customs Brokerage</h5>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-light" type="button" id="search-button"><a href="asset/custom.html" style="text-decoration: none; color: red;" target="_blank">Learn More</a></button>
+        </div>
+      </div>
+      <div class="col p-3 bg-danger text-white">
+        <img src="asset/img/hero-img.avif" alt="" width="100%">
+        <h5 style="text-align: center;">Cargo and Logistics </h5>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-light" type="button" id="search-button"> <a href="asset/cargo.html" style="text-decoration: none; color: red;" target="_blank">Learn More</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="container mt-5">
+    <h2>Create Shipment</h2>
+    <form id="shipmentForm">
+      <div class="mb-3">
+        <label for="senderAddress" class="form-label">Sender's Address</label>
+        <input type="text" class="form-control" id="senderAddress" name="senderAddress" required>
+      </div>
+      <div class="mb-3">
+        <label for="recipientAddress" class="form-label">Recipient's Address</label>
+        <input type="text" class="form-control" id="recipientAddress" name="recipientAddress" required>
+      </div>
+      <div class="mb-3">
+        <label for="packageContents" class="form-label">Package Contents</label>
+        <input type="text" class="form-control" id="packageContents" name="packageContents" required>
+      </div>
+      <div class="mb-3">
+        <label for="totalAmount" class="form-label">Total Amount</label>
+        <input type="number" class="form-control" id="totalAmount" name="totalAmount" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  
+<div class="container">
+    <h1 class="mt-4"></h1>
+    <form action="asset/get-quote.php" method="post" target="_blank">
+        <div class="container-fluid mt-3">
+            <h1 class="ml2" style="text-align: center; padding: 5%; color: red;" id="get-quote">Get Quote</h1>
+            <div class="container mt-3">
+                <div class="input-group mb-3">
+                    <label class="input-group-text">
+                        <input type="radio" name="freight_type" value="OCEAN FREIGHT">
+                    </label>
+                    <h5 class="form-control btn btn-danger">OCEAN FREIGHT</h5>
+                    <label class="input-group-text">
+                        <input type="radio" name="freight_type" value="AIR FREIGHT">
+                    </label>
+                    <h5 class="form-control btn btn-danger">AIR FREIGHT</h5>
+                    <label class="input-group-text">
+                        <input type="radio" name="freight_type" value="LAND TRANSPORT">
+                    </label>
+                    <h5 class="form-control btn btn-danger">LAND TRANSPORT</h5>
+                </div>
+            </div>
+
+            <div class="mb-3 btn btn-danger" style="display: inline-block;">
+                <label for="originCountry" class="form-label">Country of Origin</label>
+                <select class="form-select" id="country" name="country"></select>
+            </div>
+
+            <div class="form-group mb-3 btn btn-danger" style="display: inline-block;">
+                <label for="destination" class="form-label">Destination</label>
+                <input type="text" class="form-control" id="destination" name="destination">
+            </div>
+            <div class="form-group mb-3 btn btn-danger" style="display: inline-block;">
+                <label for="quantity" class="form-label">Qty</label>
+                <input type="number" class="form-control" id="quantity" name="quantity">
+            </div>
+            <div class="form-group mb-3 btn btn-danger" style="display: inline-block;">
+                <label for="weight" class="form-label">Weight</label>
+                <input type="text" class="form-control" id="weight" name="weight">
+            </div>
+            <div class="form-group mb-3 btn btn-danger" style="display: inline-block;">
+                <label for="height" class="form-label">Height</label>
+                <input type="text" class="form-control" id="height" name="height">
+            </div>
+            <div class="form-group mb-3 btn btn-danger" style="display: inline-block;">
+                <label for="length" class="form-label">Length</label>
+                <input type="text" class="form-control" id="length" name="length">
+            </div>
+            <div class="form-group mb-3 btn btn-danger" style="display: inline-block;">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+            <div class="form-group mb-3 btn btn-danger" style="display: inline-block;">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <div class="form-group mb-3 btn btn-danger" style="display: inline-block;">
+                <label for="phone" class="form-label">Phone</label>
+                <input type="tel" class="form-control" id="phone" name="phone">
+            </div>
+            <button type="submit" class="btn btn-danger">Request Quote</button>
+        </div>
+    </form>
+</div>
+
+
+
+
+<h1 class="ml2" style="text-align: center; color: red; padding: 5%;" id="partners">Our Partners</h1>
+      
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<marquee behavior="4%" direction="">
+<div class="row">
+<div class="col"><img alt="" src="asset/img/Afri-logo.png" style="width: 100%;"></div>
+
+<div class="col"><img alt="" src="asset/img/chartright.png" style="width: 100%;"></div>
+
+<div class="col"><img alt="" src="asset/img/xojet-aviation_e0aeeb.png" style="width: 100%;" /></div>
+
+<div class="col"><img alt="" src="asset/img/Xr-logo.jpg" style="width: 100%;" /></div>
+
+<div class="col"><img alt="" src="asset/img/zhao-jin-logo.jpg" style="width: 100%;" /></div>
+
+<div class="col"><img alt="" src="asset/img/London_Mining_logo.png" style="width: 100%;" /></div>
+
+<div class="col"><img alt="" src="asset/img/Transguard_logo.png" style="width: 100%;" /></div>
+
+<div class="col"><img alt="" src="asset/img/Ferari_logo.png" style="width: 100%;" /></div>
+
+<div class="col"><img alt="" src="asset/img/brinks_logo.png" style="width: 100%;" /></div>
+
+<div class="col"><img alt="" src="asset/img/Africa_mineral_logo.png" style="width: 100%;" /></div>
+<!-- 
+<div class="col"><img alt="" src="asset/img/" style="width: 100%;" /></div>
+
+<div class="col"><img alt="" src="asset/img/hero-img.avif" style="width: 100%;" /></div>
+
+<div class="col"><img alt="" src="asset/img/hero-img.avif" style="width: 100%;" /></div>
+
+<div class="col"><img alt="" src="asset/img/hero-img.avif" style="width: 100%;" /></div>
+
+<div class="col"><img alt="" src="asset/img/hero-img.avif" style="width: 100%;" /></div>
+
+<div class="col"><img alt="" src="asset/img/hero-img.avif" style="width: 100%;" /></div>
+
+<div class="col"><img alt="" src="asset/img/hero-img.avif" style="width: 100%;" /></div>
+
+<div class="col"><img alt="" src="asset/img/hero-img.avif" style="width: 100%;" /></div> -->
+</div>
+</marquee>
+  
+<div class="container-fluid mt-3">
+  <h1 class="ml2" style="text-align: center; padding: 5%; color: red;">Our Progress Bar</h1>
+  <h4>Cargo and Shipping</h4>
+
+
+  <div class="progress">
+  <h6 ><span id="counter1">0%</span></h6>
+  
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:89%"></div>
+  </div>
+  </div>
+  
+  <div class="container mt-3">
+  <h4>Gold and Precious Stone</h4>
+  
+  <p></p>
+  
+  <div class="progress">
+  <h6><span id="counter2">0%</span></h5>
+  
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:87%"></div>
+  </div>
+  </div>
+  
+  <div class="container mt-3">
+  <h4>Private Jet Charter</h4>
+  
+  <div class="progress">
+  <h6><span id="counter3">0%</span></h5>
+  
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:83%" ></div>
+  </div>
+  </div>
+  
+  <div class="container mt-3">
+  <h5>Custom Brokerage</h4>
+  
+  <div class="progress">
+  <h6><span id="counter4">0%</span></h5>
+  
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:85% "></div>
+  </div>
+  </div>
+  
+    
+  </div>
+  <div class="container mt-5">
+    <h1 class="ml2" style="text-align: center; padding: 5%; color: red;" id="success">Our Success Stories</h1>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container ">
+                    <p style="color: red;">"I've been shipping goods internationally for years, and Sierraline Cargo Service has consistently impressed me. Their attention to detail, prompt communication, and commitment to ensuring my cargo arrives on time, every time, is unmatched."</p>
+                    <p class="text-center" ><b style="color: red;" >David H.</b></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+
+                    <p style="color: red;">"Sierraline Cargo Service has been my go-to partner for all things related to precious stones. Their accurate grading and valuation services have been instrumental in my business's success. I trust their expertise completely."</p>
+                    <p class="text-center" ><b style="color: red;">Jonathan L.</b></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <p style="color: red;">"The team at Sierraline Cargo Service made my recent customs clearance a breeze. The complexities of international shipping were expertly managed, and I can't thank them enough for their thoroughness and efficiency."</p>
+                    <p class="text-center"><b style="color: red;">Sofia M.</b></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <p style="color: red;">"Flying privately with Sierraline Cargo Service is an absolute luxury. The convenience, comfort, and privacy they offer is unparalleled. I'll never go back to commercial flights for my business trips."</p>
+                    <p class="text-center"><b style="color: red;">James S.</b></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+
+                    <p style="color: red;">"Sierraline Cargo Service's dedication to quality service is what sets them apart. Their shipping solutions are not just efficient; they're also cost-effective. It's a win-win for my business."</p>
+                    <p class="text-center" ><p class="text-center"><b style="color: red;">Maria R.</b>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually">Next</span>
+        </button>
+    </div>
+</div>
+<div class="container-fluid mt-3">
+  <h1 class="ml2" style="text-align: center; padding: 5%; color: red;" id="tracking">Tracking</h1>
+  <section class="tracking-section">
+    <p style="color: red; text-align: center;">Track your cargo in real-time. Enter your tracking number and stay updated on its journey..</p>
+    <form action="/track_order" method="POST">
+      <div class="container">
+        <div class="form-group mb-3 btn btn-danger">
+          <label for="orderNumber" class="form-label">Order Number:</label>
+          <input type="text" class="form-control" id="orderNumber" name="orderNumber" required>
+        </div>
+        <div class="form-group mb-3 btn btn-danger">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <button type="submit" class="btn btn-danger">Track Order</button>
+      </div>
+    </form>
+  </section>
+</div>
+
+
+<h1 class="ml2" style="text-align: center; padding: 5%; color: red;" id="business-gallery" >Business Gallery</h1>
+<div class="container mt-5">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    
+    <!-- Repeat the following block for each image or video -->
+
+    <!-- Image Card -->
+    <div class="col gallery-item">
+      <div class="card">
+        <img src="asset/img/img-cargo5.jpeg" class="card-img-top" alt="Image">
+        <div class="card-body">
+          <h5 class="card-title">Cargo Shipping</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Card -->
+    <div class="col gallery-item">
+      <div class="card">
+        <div class="embed-responsive embed-responsive-16by9">
+          <video class="embed-responsive-item" controls autoplay loop muted style="max-width: 100%; max-height: 100%;">
+            <source src="asset/video/cargo1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Cargo Shipping</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col gallery-item">
+      <div class="card">
+        <div class="embed-responsive embed-responsive-16by9">
+          <video class="embed-responsive-item" controls autoplay loop muted style="max-width: 100%; max-height: 100%;">
+            <source src="asset/video/cargo4.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Cargo Shipping</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col gallery-item">
+      <div class="card">
+        <img src="asset/img/img-cargo2.jpeg" class="card-img-top" alt="Image">
+        <div class="card-body">
+          <h5 class="card-title">Private Jet</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col gallery-item">
+      <div class="card">
+        <img src="asset/img/img-cargo1.jpeg" class="card-img-top" alt="Image">
+        <div class="card-body">
+          <h5 class="card-title">Private Jet</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col gallery-item">
+      <div class="card">
+        <img src="asset/img/private3.jpeg" class="card-img-top" alt="Image">
+        <div class="card-body">
+          <h5 class="card-title">Private Jet</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col gallery-item">
+      <div class="card">
+        <img src="asset/img/img-cargo1.jpeg" class="card-img-top" alt="Image">
+        <div class="card-body">
+          <h5 class="card-title">Private Jet</h5>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="col gallery-item">
+      <div class="card">
+        <div class="embed-responsive embed-responsive-16by9">
+          <video class="embed-responsive-item" controls autoplay loop muted style="max-width: 100%; max-height: 100%;">
+            <source src="asset/video/cargo2.mp4" type="video/mp4" >
+
+          </video>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Private Jet</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col gallery-item">
+      <div class="card">
+        <div class="embed-responsive embed-responsive-16by9" >
+          <video class="embed-responsive-item" controls autoplay loop muted style="max-width: 100%; max-height: 100%;">
+            <source src="asset/video/cargo3.mp4" type="video/mp4" >
+
+          </video>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Private Jet</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col gallery-item">
+      <div class="card">
+        <div class="embed-responsive embed-responsive-16by9" >
+          <video class="embed-responsive-item" controls autoplay loop muted style="max-width: 100%; max-height: 100%;">
+            <source src="asset/video/vid-private1.mp4" type="video/mp4" >
+
+          </video>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Private Jet</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col gallery-item">
+      <div class="card">
+        <div class="embed-responsive embed-responsive-16by9" >
+          <video class="embed-responsive-item" controls autoplay loop muted style="max-width: 100%; max-height: 100%;">
+            <source src="asset/video/vid-private2.mp4" type="video/mp4" >
+
+          </video>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Private Jet</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col gallery-item">
+      <div class="card">
+        <div class="embed-responsive embed-responsive-16by9" >
+          <video class="embed-responsive-item" controls autoplay loop muted style="max-width: 100%; max-height: 100%;">
+            <source src="asset/video/gold-mining.mp4" type="video/mp4" >
+
+          </video>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Gold and Precious Stones</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col gallery-item">
+      <div class="card">
+        <div class="embed-responsive embed-responsive-16by9" >
+          <video class="embed-responsive-item" controls autoplay loop muted style="max-width: 100%; max-height: 100%;">
+            <source src="asset/video/vid-gold-mining4.mp4" type="video/mp4" >
+
+          </video>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Gold and Precious Stones</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col gallery-item">
+      <div class="card">
+        <div class="embed-responsive embed-responsive-16by9" >
+          <video class="embed-responsive-item" controls autoplay loop muted style="max-width: 100%; max-height: 100%;">
+            <source src="asset/video/gold-mining5.mp4" type="video/mp4" >
+
+          </video>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Gold and Precious Stones</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col gallery-item">
+      <div class="card">
+        <div class="embed-responsive embed-responsive-16by9" >
+          <video class="embed-responsive-item" controls autoplay loop muted style="max-width: 100%; max-height: 100%;">
+            <source src="asset/video/gold-mining6.mp4" type="video/mp4" >
+
+          </video>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Gold and Precious Stones</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col gallery-item">
+      <div class="card">
+        <div class="embed-responsive embed-responsive-16by9" >
+          <video class="embed-responsive-item" controls autoplay loop muted style="max-width: 100%; max-height: 100%;">
+            <source src="asset/video/gold-mining7.mp4" type="video/mp4" >
+
+          </video>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Gold and Precious Stones</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col gallery-item">
+      <div class="card">
+        <div class="embed-responsive embed-responsive-16by9" >
+          <video class="embed-responsive-item" controls autoplay loop muted style="max-width: 100%; max-height: 100%;">
+            <source src="asset/video/vid-gold2.mp4" type="video/mp4" >
+
+          </video>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Gold and Precious Stones</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="col gallery-item">
+      <div class="card">
+        <div class="embed-responsive embed-responsive-16by9" >
+          <video class="embed-responsive-item" controls autoplay loop muted style="max-width: 100%; max-height: 100%;">
+            <source src="asset/video/vid-gold3.mp4" type="video/mp4" >
+
+          </video>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Gold and Precious Stones</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col gallery-item">
+      <div class="card">
+        <img src="asset/img/gold1.jpeg" class="card-img-top" alt="Image">
+        <div class="card-body">
+          <h5 class="card-title">Gold and Precious Stones</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Repeat the above block for up to 30 images and videos -->
+
+  </div>
+</div>
+<h1 class="ml2" style="text-align: center; padding: 5%; color: red;" id="news" >Latest News!!! </h1>
+<div class="container mt-5">
+  <div class="marquee-container">
+    <div class="marquee-content">
+      <!-- Your news items go here -->
+      <div class="alert alert-primary" role="alert">
+       <h1>Headline 1:</h1>  Exciting News at Sierraline Cargo Service
+      </div>
+      <div class="alert alert-secondary" role="alert">
+       <h1>Headline 2:</h1>Sierraline Cargo Service Receives Prestigious Award
+      </div>
+      <div class="alert alert-success" role="alert">
+       <h1>Headline 3:</h1> Season's Greetings from Sierraline Cargo Service
+      </div>
+      <!-- Repeat the above structure for more news items -->
+    </div>
+  </div>
+</div>
+
+  <div class="container mt-5">
+  <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="container ">
+                <div class="news-container">
+                  <h1 id="news-title">Exciting News at Sierraline Cargo Service</h1>
+                  <p id="news-date">Published on December 4, 2023</p>
+                
+                  <hr>
+                
+                  <div id="staff-news">
+                    <p><span id="staff-name">Kehinde Opaleye</span>, Staff Writer</p>
+                
+                    <p>We are thrilled to announce some exciting developments at Sierraline Cargo Service. As part of our ongoing commitment to excellence, we have achieved significant milestones that showcase our dedication to providing top-notch logistics and cargo services.</p>
+                
+                    <p>Over the past year, our team has worked diligently to streamline our operations, enhance our service offerings, and expand our global reach. We are proud to share that our efforts have been met with success, and we continue to set new standards in the industry.</p>
+                
+                    <p>Sierraline Cargo Service has always been focused on delivering reliable and efficient shipping solutions tailored to the unique needs of our clients. Our rich history and unwavering commitment to excellence have earned us the trust of clients around the world.</p>
+                
+                    <p>As we reflect on our journey, we recognize the invaluable contributions of each member of the Sierraline family. It is through the hard work, dedication, and expertise of our team that we have been able to achieve these milestones.</p>
+                
+                    <p>We look forward to the future with enthusiasm and a commitment to continuous improvement. Sierraline Cargo Service remains dedicated to revolutionizing the world of logistics, and we invite you to join us on this exciting journey.</p>
+                
+                    <p>Thank you for your continued support.</p>
+                
+                    <p>Best regards,</p>
+                    <p>Kehinde Opaleye</p>
+                    <p>Sierraline Cargo Service Staff</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="container">
+
+                <div class="news-container">
+                  <h1 id="news-title">Sierraline Cargo Service Receives Prestigious Award</h1>
+                  <p id="news-date">Published on December 4, 2023</p>
+                
+                  <hr>
+                
+                  <img id="award-image" src="your_award_image_url.jpg" alt="Award Image">
+                
+                  <div id="award-details">
+                    <p>We are thrilled to announce that Sierraline Cargo Service has been honored with the prestigious [Award Name] in recognition of our outstanding contributions to the logistics and cargo services industry.</p>
+                
+                    <p>This esteemed award is a testament to our unwavering commitment to excellence, innovation, and customer satisfaction. Sierraline Cargo Service has consistently demonstrated leadership, reliability, and a dedication to providing top-notch shipping solutions tailored to the unique needs of our clients.</p>
+                
+                    <p>The entire Sierraline team is proud of this achievement, and we extend our sincere gratitude to our clients, partners, and employees whose hard work and support have contributed to this success.</p>
+                
+                    <p>Receiving this award motivates us to continue pushing the boundaries of what is possible in the world of logistics. We remain committed to delivering exceptional services and setting new industry standards.</p>
+                
+                    <p>Thank you for being part of our journey. We look forward to many more years of success and collaboration.</p>
+                
+                    <p>Best regards,</p>
+                    <p>Ibrahim Kamara</p>
+                    <p>Sierraline Cargo Service</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <div class="container">
+                <div class="greeting-container">
+                  <h1 id="greeting-title">Season's Greetings from Sierraline Cargo Service</h1>
+                  <p id="greeting-date">Published on December 4, 2023</p>
+                
+                  <hr>
+                
+                  <div id="greeting-message">
+                    <p>Dear Valued Customers,</p>
+                
+                    <p>As we approach the festive season, on behalf of Sierraline Cargo Service, I extend warm greetings and sincere gratitude for your continued support throughout the year.</p>
+                
+                    <p>2023 has been a remarkable year, and your trust and partnership have played a crucial role in our success. We are truly grateful for the opportunity to serve you and meet your logistics and cargo needs.</p>
+                
+                    <p>As the holiday season is upon us, I want to take this moment to wish you and your loved ones a Merry Christmas filled with joy, laughter, and cherished moments. May the New Year bring prosperity, good health, and more opportunities for growth and success.</p>
+                
+                    <p>Sierraline Cargo Service remains committed to providing you with exceptional services in the coming year and beyond. We look forward to continuing this journey together and achieving new milestones.</p>
+                
+                    <p>Thank you for choosing Sierraline Cargo Service. We value your partnership and wish you a wonderful holiday season and a Happy New Year in advance.</p>
+                
+                    <p>Warm regards,</p>
+                    <p>Ibrahim Kamara</p>
+                    <p>Chairman, Sierraline Cargo Service</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually">Next</span>
+      </button>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+                          
+
+  <br><br>       <br><br>       <br><br>       <br><br>       <br><br>       <br><br>       
+
+
+<footer>
+  <main class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 style="color: white;" id="contact">Contact Information</h2>
+        <address>
+          <h5>Head Quarter</h5>
+          <p><strong style="color: white;">SierraLine Cargo Services (North America)</strong></p>
+          <p style="color: white;">180 Parkhill Avenue</p>
+          <p style="color: white;">Staten Island, NY 10304</p>
+          <p style="color: white;">United State.</p>
+          <p style="color: white;">Phone:+13474748150</p>
+          <p style="color: white;">Email: info@sierralineservices.com</p>
+        </address>
+        <address>
+          <p><strong style="color: white;">SierraLine Cargo Services (West Africa)</strong></p>
+          <p style="color: white;">No 64c Bertil Harding Highway</p>
+          <p style="color: white;">Dream Park Complex</p>
+          <p style="color: white;">West Coast Region, Gambia</p>
+          <p style="color: white;">Phone: +2207988609</p>
+          <p style="color: white;">Email: info@sierralineservices.com</p>
+        </address>
+        <address>
+          <p><strong style="color: white;">SierraLine Cargo Services (Asia)</strong></p>
+          <p style="color: white;">23 Chengshousi Rd</p>
+          <p style="color: white;">Fengtai District, Beijing, China, 100164</p>
+          <p style="color: white;">Email: info@sierralineservices.com</p>
+        </address>
+      </div>
+<div class="col-md-6">
+    <h2 style="color: white;" id="contact">Contact Form</h2>
+    <form action="asset/contact_form.php" method="POST" target="_blank">
+        <div class="mb-3">
+            <label for="name" class="form-label" style="color: white;">Your Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label" style="color: white;">Your Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="country" class="form-label" style="color: white;">Country</label>
+            <input type="text" class="form-control" id="country" name="country" required>
+        </div>
+        <div class="mb-3">
+            <label for="phone" class="form-label" style="color: white;">Phone</label>
+            <input type="tel" class="form-control" id="phone" name="phone" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label" style="color: white;">Your Message</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-danger">Submit</button>
+    </form>
+</div>
+
+ </main>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3 style="color: white;">Quick Links</h3>
+          <ul>
+            <li><a href="index.html" style="text-decoration: none; color: white;">Home</a></li>
+            <li><a href="#services" style="text-decoration: none; color: white;">Services</a></li>
+            <li><a href="#history" style="text-decoration: none; color: white;">About Us</a></li>
+            <li><a href="#contact" style="text-decoration: none; color: white;">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-5">
+          <h3 style="color: white;">Follow Us</h3>
+          <div class="social-icons">
+            <a href="#"><img src="asset/img/5296499_fb_facebook_facebook logo_icon (1).png" width="5%" alt="Facebook"></a>
+            <a href="#"><img src="asset/img/5296516_tweet_twitter_twitter logo_icon.png" width="5%" alt="Twitter"></a>
+            <a href="#"><img src="asset/img/5296765_camera_instagram_instagram logo_icon.png" alt="Instagram"></a>
+            <a href="#"><img src="asset/img/317750_linkedin_icon.png" width="5%" alt="Linkedin"></a>
+            <a href="#"><img src="asset/img/youtube-logo-png-46031 (1).png" alt="Youtube"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  
+
+    <p style="text-align: center;">&copy; 2016-2023 SierraLine Cargo Services. All rights reserved.</p>
+
+  
+</footer>
+
+  <script src="asset/index.js"></script>
+  <script src="asset/anime.js"></script>
+  <script src="asset/tracking.js"></script>
+  
+
+  
+
+</body>
+</html>

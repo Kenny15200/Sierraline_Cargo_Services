@@ -1,0 +1,293 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.service-1 {
+    text-align: center;
+    padding: 5%;
+}
+.dropdown-menu {
+    display: none;
+}
+
+/* Style the dropdown to appear on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Add styles for hover effect on the dropdown items */
+.nav-item.dropdown:hover .dropdown-menu .dropdown-item:hover {
+    background-color: #343a40;
+}
+ /* Custom CSS styles for adjusting image size */
+ .carousel-item img {
+    max-height: 500px; /* Adjust the max-height as needed */
+    width: auto; /* Maintain the aspect ratio */
+  }
+  #search-button {
+    color: red; /* Set the text color to red (danger) */
+  }
+  #service-1 {
+    text-align: center;
+    padding: 5%;
+}
+/* Base styles */
+.col {
+    transition: transform 0.5s;
+}
+
+/* Apply styles on hover for large screens */
+.col:hover {
+    transform: scale(1.05);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .col {
+        transition: none; /* Disable scaling on smaller screens */
+    }
+
+    /* Apply styles for smaller screens */
+    .col {
+        border: 1px solid red;
+        margin: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .col img {
+        max-width: 100%;
+    }
+
+    /* Style the buttons for smaller screens */
+    .btn {
+        display: block;
+        margin: 10px auto;
+    }
+}
+/* Add styles for the footer */
+footer {
+    background-color: #bb1a1a;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  footer h3 {
+    font-size: 1.5rem;
+    color: white; /* Adjust color as needed */
+    margin-top: 10px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    width: 32px; /* Adjust the size as needed */
+    height: 32px;
+  }
+  
+  /* Add hover effect for social media icons */
+  .social-icons a:hover img {
+    filter: brightness(80%);
+  }
+  
+
+marquee {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: 
+    translate(-100%);
+  }
+}
+.marquee1 {
+  margin:.7rem auto;
+}
+
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+.gallery-item {
+      margin-bottom: 20px;
+}
+.marquee-container {
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.marquee-content {
+  display: flex;
+  animation: marquee 15s linear infinite;
+  width: max-content;
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.news-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+.news-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+#news-title {
+  color: #dc3545;
+  text-align: center;
+}
+
+#news-date {
+  color: #6c757d;
+  text-align: center;
+}
+
+#award-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+#award-details {
+  margin-top: 20px;
+}
+
+#news-title {
+  color: #dc3545;
+  text-align: center;
+}
+
+#news-date {
+  color: #6c757d;
+  text-align: center;
+}
+
+#staff-name {
+  font-weight: bold;
+}
+
+#staff-news {
+  margin-top: 20px;
+}
+.greeting-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+#greeting-title {
+  color: #007bff;
+  text-align: center;
+}
+
+#greeting-date {
+  color: #6c757d;
+  text-align: center;
+}
+
+#greeting-message {
+  margin-top: 20px;
+  text-align: justify;
+}

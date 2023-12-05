@@ -1,0 +1,7 @@
+.container-with-background-2 {
+    background-image: url('img/'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}

@@ -1,0 +1,20 @@
+ /* Custom CSS styles for adjusting image size */
+ .carousel-item img {
+    max-height: 500px; /* Adjust the max-height as needed */
+    width: auto; /* Maintain the aspect ratio */
+  }
+  #search-button {
+    color: red; /* Set the text color to red (danger) */
+  }
+
+.container-with-background-1 {
+  background-image: url('img/private-jet.avif'); /* Replace 'your-image.jpg' with the path to your image */
+  background-size: cover;
+  /* background-position: center; */
+   /* padding: 20px; Add some padding to the container if needed */
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+
+  
