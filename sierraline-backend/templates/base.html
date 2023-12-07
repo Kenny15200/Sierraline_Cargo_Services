@@ -1,0 +1,26 @@
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Sierraline Safekeeping{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <!-- Your header content goes here -->
+        <h1>Sierraline Safekeeping</h1>
+    </header>
+
+    <main>
+        <!-- Content from child templates will be inserted here -->
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <!-- Your footer content goes here -->
+        <p>&copy; 2023 Sierraline Safekeeping</p>
+    </footer>
+</body>
+</html>
+

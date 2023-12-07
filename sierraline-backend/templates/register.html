@@ -1,0 +1,25 @@
+<!-- templates/register.html -->
+{% extends 'base.html' %}
+
+{% block title %}Register - Sierraline Safekeeping{% endblock %}
+
+{% block content %}
+    <h2>Register</h2>
+    <form action="{{ url_for('register') }}" method="post">
+        <!-- Your registration form fields go here -->
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" required>
+
+        <button type="submit">Register</button>
+    </form>
+{% endblock %}
+

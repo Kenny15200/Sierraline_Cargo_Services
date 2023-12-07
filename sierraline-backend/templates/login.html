@@ -1,0 +1,30 @@
+<!-- templates/login.html -->
+{% extends 'base.html' %}
+
+{% block title %}Login - Sierraline Safekeeping{% endblock %}
+
+{% block content %}
+    <h2>Login</h2>
+    <form action="{{ url_for('login') }}" method="post">
+        <!-- Your login form fields go here -->
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" required>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <!-- Include the JavaScript file -->
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+
+        <!-- Include the JavaScript file -->
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+
+    <p>Don't have an account? <a href="{{ url_for('register') }}">Register here</a></p>
+{% endblock %}
+
+{% endblock %}
+
+

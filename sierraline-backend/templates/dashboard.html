@@ -1,0 +1,40 @@
+<!-- templates/dashboard.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}Dashboard - Sierraline Safekeeping{% endblock %}
+
+{% block content %}
+    <h2>Welcome, {{ user.first_name }}!</h2>
+
+    <!-- Your dashboard content goes here -->
+    <p>Hello, {{ user.first_name }}! Here's your order history:</p>
+
+    {% if orders %}
+        <ul>
+            {% for order in orders %}
+                <li>Item: {{ order.item_name }}, Delivery Address: {{ order.delivery_address }}, Tracking Number: {{ order.tracking_number }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No orders yet. Place your first order now!</p>
+    {% endif %}
+
+    <h3>Place an Order</h3>
+    <form id="orderForm" action="{{ url_for('place_order') }}" method="post">
+        <!-- Your order placement form fields go here -->
+        <label for="itemName">Item Name:</label>
+        <input type="text" name="itemName" id="itemName" required>
+
+        <label for="deliveryAddress">Delivery Address:</label>
+        <textarea name="deliveryAddress" id="deliveryAddress" required></textarea>
+
+        <button type="submit">Place Order</button>
+    </form>
+
+    <!-- Include the JavaScript file -->
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    
+    <a href="{{ url_for('logout') }}">Logout</a>
+{% endblock %}
+
